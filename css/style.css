@@ -1,0 +1,22 @@
+body{
+    background-color:#EAF6F6 ;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: indigo;
+    border-width: 5px;
+    width: 8%;
+}
+h1{
+    size: 10px;
+    color: rebeccapurple;    
+
+}
+
+img{
+    height: 180px;
+}
+h2{
+    color: #e11212;
+}
