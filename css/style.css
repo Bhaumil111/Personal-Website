@@ -1,5 +1,102 @@
-body{
-    background-color:#EAF6F6 ;
+body {
+    margin: 0;
+    text-align: center;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 60px auto 0 auto;
+    line-height: 1;
+    font-family: 'MonteCarlo', cursive;
+    font-size: 650%;
+    color:  #033939;
+}
+h2{
+    font-size: 180%;
+    /* font-weight: normal; */
+    font-weight: bold;
+    color:  #033939;
+}
+h2:hover{
+    font-size: 200%;
+    color: #0b2646;
+}
+
+h3:hover{
+    font-size:160% ;
+}
+a{
+    color:  #040343;
+}
+
+a:hover{
+    color: #274f11;
+}
+h3{
+    font-size: 150%;
+    color: #c34545;
+}
+
+p {
+    font-size: 25px;
+
+    font-family: 'Teko', sans-serif;
+}
+
+.main {
+
+    background-color: rgb(214, 252, 252);
+    position: relative;
+    padding-top: 100px;
+
+
+}
+
+.skill-row{
+    width:50%;
+    margin:70px auto 70px auto;
+}
+
+
+.skullimage {
+    height: 300px;
+
+}
+.skullimage:hover {
+    height: 300px;
+
+}
+
+
+.programmingimage {
+    height: 175px; 
+    width:30%;
+    float: left;
+    margin-right: 30px;
+    /* margin-bottom: 40px; */
+}
+
+.webimage {
+    /* height: 300px; */
+    height: 175px;
+    width:30%;
+    float: right;
+    margin-left: 30px;
+
+}
+.btn{
+    background-color: #00ffff;
+    width: 9%;
+    padding: 12px;
+    border-radius: 14px;
+    color: rgb(64, 3, 134);
+    font-size: 15px;
+    font-weight: bold
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #eeff35;
 }
 hr {
     border-style: none;
@@ -8,15 +105,38 @@ hr {
     border-width: 5px;
     width: 8%;
 }
-h1{
-    size: 10px;
-    color: rebeccapurple;    
+hr:hover{
+    width:100%;
+    border-color: #c34545;
+}
+.bottom-container {
+    padding: 30px;
+    background-color: #66BFBF;
+    margin-top: 50px;
+}
+.footer-link{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #012e64;
+    font-size: 105%;
+    font-weight: bold
+}
+.footer-link:hover{
+    color: #033939;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
 
 }
 
-img{
-    height: 180px;
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
 }
-h2{
-    color: #e11212;
-}
+
